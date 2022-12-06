@@ -1,0 +1,48 @@
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b78700;
+    padding: 5px 5px 5px 5px;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 1px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+}
+
+
+.campo input[type="text"], .campo input[type="password"], .campo input[type="textarea"], .campo select{
+    padding: 0.2em;
+    border: 1px solid;
+}
+
+.campo select option{
+    padding-right: 1em;
+    font-size: 1.2em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #b6ab8ce2;
+}
+
+.botao {
+    font-size: 1.2em;
+}
